@@ -1,15 +1,28 @@
-.li-imagenes img{
-    position: absolute; 
-    // top: -391px; 
-    // left: 285px; 
-    width: 275px; 
-    height: 402px; 
-    border-radius: 6px;
-    gap: 30px;
-}
-
-.li-imagenes h2{
+.card-container{
+    width: 250px; 
+    height: 402px;  
     position: relative;
-
+    img{
+        width: 100%;
+        height: 100%;
+        border-radius: 6px;
+        gap: 30px;
+        filter: brightness(.4);
+    }  
+    .info-movie {     
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        width: 100%;
+        .info{
+            padding: 20px;
+            text-align: center;
+            h2, p{
+                color: white;
+            }
+        }        
+    }
+        
 }
+
 

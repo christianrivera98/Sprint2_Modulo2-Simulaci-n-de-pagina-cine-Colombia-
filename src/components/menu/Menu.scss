@@ -1,23 +1,16 @@
 .categories {
   display: flex;
-  margin-left: 123px;
   gap: 14px;
   list-style: none;
-  position: absolute;
-  top: 41px;
-  left: 312px;
+    li{
 
-
-    & li{
-        display: flex;
-        justify-content: center;
-        align-items: center;
         padding: 5px 19px;
-        width: auto;
-        height: auto;
         background:  #1C508DFF;
         border-radius: 19px;
-        box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f;
+        //box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f;
+        &:hover{
+          background-color: rgba(28, 81, 141, 0.568);
+        }
     }
 
   & a {

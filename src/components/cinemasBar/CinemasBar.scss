@@ -1,7 +1,6 @@
 .cinemasBar-conteiner{
     display: flex;
     flex-direction: column;
-    margin-left: 88px;
     & label{
         font-size: 14px; 
         line-height: 22px;
@@ -12,10 +11,8 @@
 
 .cinemasbar{
     color: white;
-    width: 222px; 
-    height: 35px; 
-    padding-left: 12px; 
-    padding-right: 34px; 
+    width: 120px; 
+    padding: 10px 20px;
     font-size: 14px; 
     background: #00000000; /* transparent */
     border-radius: 6px; /* border-m */

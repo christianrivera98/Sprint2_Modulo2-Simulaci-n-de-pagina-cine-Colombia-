@@ -8,14 +8,14 @@ function NavBar() {
   return (
     <>
       <div className="navbar-conteiner">
-        <div className="left-header-conteiner">
+        <div className="left">
           <img src="./src/assets/logo-cine-colombia.jpg" alt="" />
-          <h1>CINE COLOMBIA</h1>
+          <h3>CINE COLOMBIA</h3>
         </div>
         <div className="menu-conteiner">
           <Menu />
         </div>
-        <div className="right-header-conteiner">
+        <div className="right">
           <CinemasBar />
           <FechaBar />
           <i class="bi bi-person"></i>

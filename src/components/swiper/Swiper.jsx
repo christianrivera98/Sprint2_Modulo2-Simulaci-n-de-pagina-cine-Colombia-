@@ -9,6 +9,7 @@ import './Swiper.scss'
 
 export function Swiper() {
   const [movies, setMovies] = useState([]);
+  //const [moviesList, setMoviesList] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -17,6 +18,7 @@ export function Swiper() {
         const firstFiveMovies = data.results.slice(0, 5);
         console.log(data.results);
         setMovies(firstFiveMovies);
+        //setMoviesList(data.results)
       }
     };
 
